@@ -55,7 +55,7 @@ main {
 }
 
 .settings p:hover {
-  color: #ff9f1c;
+  color: #011627;
 }
 
 .active {
@@ -168,6 +168,8 @@ footer {
 .icon {
   margin-left: 2rem;
   margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 

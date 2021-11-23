@@ -11,7 +11,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
     assetModuleFilename: "[name][ext]",
     clean: true,
-    publicPath: "/Todo-List/"
+    // publicPath: "/Todo-List/"
   },
   devtool: "inline-source-map",
   devServer: {
