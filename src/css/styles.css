@@ -173,3 +173,19 @@ footer {
   cursor: pointer;
 }
 
+.list-icon {
+  margin-right: .3rem;
+}
+
+@media (max-width:600px){
+  .link-text {
+    display: none;
+  }
+  .settings {
+    width: 10%
+  }
+  .settings-title {
+    display: none;
+  }
+}
+
