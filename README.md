@@ -1,1 +1,1 @@
-# git-webpack
+A simple Todo-List with HTML, CSS, JS, and Webpack.

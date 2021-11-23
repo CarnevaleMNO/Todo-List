@@ -9,6 +9,8 @@ window.addEventListener('DOMContentLoaded', function(){
     daily.classList.add('active')
 });
 
+const question = document.querySelector(".question");
+
 //Lists
 const daily = document.querySelector('#daily');
 daily.addEventListener('click', function(){
