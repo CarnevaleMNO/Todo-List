@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Header Settings */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #011627;
+  color: #fdfffc;
+  font-weight: bolder;
+}
+
+/* Main Content Settings */
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fdfffc;
+  color: #ff9f1c;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  /* flex-grow: 1; */
+  font-size: 1.2rem;
+  background-color: #2ec4b6;
+  color: #fdfffc;
+  font-weight: bold;
+}
+
+.settings p {
+  cursor: pointer;
+}
+
+.settings p:hover {
+  color: #ff9f1c;
+}
+
+.active {
+  color: #011627;
+}
+
+.question {
+  margin-bottom: 3rem;
+}
+
+.list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ff9f1c;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.high {
+  width: 100%;
+  height: auto;
+  margin-top: .5rem;
+}
+
+.low {
+  width: 100%;
+  height: auto;
+  margin-top: .2rem;
+  text-decoration: line-through;
+}
+
+.input {
+  display: flex;
+}
+
+/* Footer Settings */
+
+footer {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #011627;
+  color: #fdfffc;
+  margin-top: auto;
+}
+
+.social {
+  display: flex;
+}
+
+.social p {
+  margin: .2rem;
+  padding: .2rem;
+}
+
+/* Extra Styling Settings */
+
+.lists {
+  margin: auto;
+  width: 70%;
+  background-color: #fdfffc;
+  color: #6b705c;
+  min-height: 50vh;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #e71d36;
+  border: 1px solid #011627;
+}
+
+.newItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6b705c;
+  margin: .5rem;
+}
+
+.plus {
+  background-color: #2ec4b6;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+}
+
+.textBox {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.borderBot::after {
+  content: '';
+  display: block;
+  width: 4rem;
+  height: 1px;
+  margin: 3rem auto 1rem;
+  background-color: black;
+  opacity: .2;
+}
+
+.icon {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
