@@ -65,6 +65,10 @@ form.addEventListener("submit", function () {
     }
   }
 });
+form.addEventListener("submit", function () {
+  form.reset();
+});
+
 
 //Daily arrays
 let dailyList = JSON.parse(localDailyStorage);
