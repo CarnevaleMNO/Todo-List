@@ -143,10 +143,9 @@ const showDailyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
+      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -157,11 +156,10 @@ const showDailyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
       icon.innerHTML =
-        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
+        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -245,10 +243,9 @@ const showWeeklyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
+      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -259,11 +256,10 @@ const showWeeklyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
       icon.innerHTML =
-        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
+        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -347,10 +343,9 @@ const showMonthlyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
+      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -361,11 +356,10 @@ const showMonthlyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
       icon.innerHTML =
-        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
+        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i><p>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -449,10 +443,9 @@ const showYearlyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
+      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -463,11 +456,10 @@ const showYearlyList = () => {
       const div = document.createElement("div");
       const p = document.createElement("p");
       const icon = document.createElement("p");
-      const input = document.createElement("div");
-      input.innerHTML = '<input type="checkbox" id="scales" name="list-item">';
+      icon.classList.add('awesome-icons');
       p.innerText = item;
       icon.innerHTML =
-        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
+        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
