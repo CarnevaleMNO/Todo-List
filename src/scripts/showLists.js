@@ -145,7 +145,7 @@ const showDailyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
+      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -158,8 +158,9 @@ const showDailyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
+      p.classList.add('line')
       icon.innerHTML =
-        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
+        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -245,7 +246,7 @@ const showWeeklyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
+      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -258,8 +259,9 @@ const showWeeklyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
+      p.classList.add('line')
       icon.innerHTML =
-        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
+        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -345,7 +347,7 @@ const showMonthlyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
+      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -358,8 +360,9 @@ const showMonthlyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
+      p.classList.add('line')
       icon.innerHTML =
-        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i><p>';
+        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
@@ -445,7 +448,7 @@ const showYearlyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
-      icon.innerHTML = `<p><i class="fas fa-recycle icon recycle"></i></p><p><i class="far fa-trash-alt icon trash"></i></p>`;
+      icon.innerHTML = `<i class="fas fa-recycle icon recycle"></i><i class="far fa-trash-alt icon trash"></i>`;
       div.append(p, icon);
       div.classList.add("newItem");
       high.append(div);
@@ -458,8 +461,9 @@ const showYearlyList = () => {
       const icon = document.createElement("p");
       icon.classList.add('awesome-icons');
       p.innerText = item;
+      p.classList.add('line')
       icon.innerHTML =
-        '<p><i class="fas fa-level-up-alt icon upgrade"></i></p><p><i class="far fa-trash-alt icon recycled-trash"></i></p>';
+        '<i class="fas fa-level-up-alt icon upgrade"></i><i class="far fa-trash-alt icon recycled-trash"></i>';
       div.append(p, icon);
       div.classList.add("newItem");
       low.append(div);
